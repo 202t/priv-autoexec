@@ -3,7 +3,7 @@
 //     | |_  | |   ___    _ __   __  __  ____  ____
 //     |  _| | |  / _ \  | '_ \  \ \/ / |_  / |_  /
 //     | |   | | | (_) | | |_) |  >  <   / /   / / 
-//     |_|   |_|  \___/  | .__/  /_/\_\ /___| /___|.
+//     |_|   |_|  \___/  | .__/  /_/\_\ /___| /___|
 //                       | |                       
 //                       |_|                                          	@flopxzxzzz at twitter
 //		                __                           
@@ -251,6 +251,44 @@ cl_use_opens_buy_menu "0"
 r_drawtracers_firstperson "0"
 cl_parachute_autodeploy "1"
 
+	//For fps boosting (maybe don't work)
+r_eyeshift_y "0"
+r_eyegloss "0"
+r_eyemove "0"
+r_eyeshift_x "0"
+r_eyeshift_y "0"
+r_eyeshift_z "0"
+r_eyesize "0"
+r_dynamic “0”
+r_drawparticles “0”
+r_drawtracers_firstperson "0"
+mat_powersavingsmode "0"
+mat_queue_report "0"
+gameinstructor_enable "0"
+cl_autohelp "0"
+cl_clearhinthistory "1"
+muzzleflash_light "0"
+cl_detail_avoid_force "0"
+cl_debugrumble "0"
+cl_join_advertise "2"
+joystick_force_disabled "1"
+joystick_force_disabled_set_from_options "1"
+clear_anim_cache
+clear_debug_overlays
+r_flushlod
+r_lightstyle "-1"
+r_radiosity "4"
+r_skin "0"
+r_updaterefracttexture "0"
+r_ambientfraction "0.1"
+r_avglight "1"
+r_avglightmap "0"
+mat_loadtextures "1"
+mat_norendering "0"
+mat_show_texture_memory_usage "0"
+mat_softwareskin "0" 
+mat_setvideomode 800 600 0
+say_team
 echo Annoying Stuff UnLoaded [X]
 
 	//Audio				 Thanks to ArminC's autoexec (https://github.com/ArmynC/ArminC-AutoExec)
@@ -320,7 +358,7 @@ echo Mouse Settings loaded [X]
 playvol "weapons/knife/knife_deploy1" "1"
 echo
 echo
-echo autoexec.cfg finished executing!
+echo flopxzz's autoexec.cfg finished executing!
 
 host_writeconfig
 
@@ -330,4 +368,3 @@ host_writeconfig
 //
 // Thanks again to Arminc's autoexec (https://github.com/ArmynC/ArminC-AutoExec)
 // and Devex's autoexec (https://rotf.lol/devexs)!
-                        
