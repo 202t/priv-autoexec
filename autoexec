@@ -320,7 +320,7 @@ echo Mouse Settings loaded [X]
 playvol "weapons/knife/knife_deploy1" "1"
 echo
 echo
-echo flopxzz autoexec.cfg finished executing!
+echo autoexec.cfg finished executing!
 
 host_writeconfig
 
