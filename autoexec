@@ -124,13 +124,14 @@ bind "F1" "rebuy"					// Rebuy
 bind "F2" "toggle cl_showpos 0 1"			// Show velocity, not that useful
 bind "F3" "autobuy"
 bind "F4" "exec autoexec"				// Exec this file (autoexec.ctf)
-bind "F5" "say " oi!					// Text Message
-bind "F6" "say " gg wp					// Text Message
-bind "F7" "say " ez					// Text Message
-bind "F8" "say " hacks					// Text Message
-bind "F9" "say " L					// Text Message
-bind "F10" "say " kinda sus				// Text Message
-bind "F11" "say " no way				// Text Message
+bind "F5" "say oi!"            // Text Message
+bind "F6" "say gg wp"                    // Text Message
+bind "F7" "say ez"                // Text Message
+bind "F8" "say hacks"                    // Text Message
+bind "F9" "say L"                     // Text Message
+bind "F10" "say kinda sus"                // Text Message
+bind "F11" "say no way "            // Text Message
+
 
 		//Mouse binds
 bind "MOUSE1" "+attack"
